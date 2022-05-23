@@ -3327,3 +3327,7 @@ input, select, textarea {
 			}
 
 		}
+
+.footer-links {
+	text-align: center;
+}
