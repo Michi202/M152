@@ -11,3 +11,5 @@ Diese werden auf der Seite Aufgabe für Aufgabe angezeigt.
 
 Die Webseite besteht Header und Footer, die Subpages anzeigen wie AGBs, Impressum, Galerie, etc.
 Im Body des Projekts soll ein Container sein mit Kompenenten die in den Lektionen des Moduls entstanden sind, d.H 3x3 Grid Layout mit Boxen die auf Subpages verlinken wie Styleguide, Reflexion, Wireframe, Konzept, etc.
+
+#### Wireframe
