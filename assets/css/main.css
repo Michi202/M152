@@ -168,6 +168,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: #585858;
 	}
 
 	h1 {
@@ -178,25 +179,6 @@ input, select, textarea {
 		letter-spacing: -0.035em;
 		text-transform: none;
 		color: #89cff0;
-	}
-
-	.h1-main{
-		font-size: 2.75em;
-		font-weight: 700;
-		line-height: 1.3;
-		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
-		text-transform: none;
-		color: #89cff0;
-	}
-
-	.h2-main{
-		font-weight: 900;
-		line-height: 1.5;
-		margin: 0 0 2em 0;
-		text-transform: uppercase;
-		letter-spacing: 0.35em;
-		color: black;
 	}
 
 		h1 a {
@@ -220,13 +202,54 @@ input, select, textarea {
 
 		}
 
+	.color-box-primary{
+		height: 50px;
+		width: 100px;
+		background-color: #89cff0;
+		text-align: center;
+		color: white;
+		vertical-align: middle;
+		line-height: 50px; 
+	}
+
+	.color-box-secondary{
+		height: 50px;
+		width: 100px;
+		background-color: #585858;
+		text-align: center;
+		color: white;
+		vertical-align: middle;
+		line-height: 50px;  
+	}
+
+	.color-box-hover{
+		height: 50px;
+		width: 100px;
+		background-color: #f2849e;
+		text-align: center;
+		color: white;
+		vertical-align: middle;
+		line-height: 50px;  
+	}
+
+	.color-box-dark{
+		height: 50px;
+		width: 100px;
+		background-color: #FFFFFF;
+		text-align: center;
+		color: black;
+		vertical-align: middle;
+		line-height: 50px;  
+		border: 1px solid black;
+	}
+
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
-		color: black;
+		color: #585858;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2858,7 +2881,7 @@ input, select, textarea {
 		padding: 8em 0 0.1em 0 ;
 	}
 
-		#header .logo {
+		.logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
@@ -2870,16 +2893,16 @@ input, select, textarea {
 			display: inline-block;
 		}
 
-			#header .logo > * {
+			.logo > * {
 				display: inline-block;
 				vertical-align: middle;
 			}
 
-			#header .logo .symbol {
+			.logo .symbol {
 				margin-right: 0.65em;
 			}
 
-				#header .logo .symbol img {
+				.logo .symbol img {
 					display: block;
 					width: 2em;
 					height: 2em;

@@ -2,7 +2,7 @@
                 <footer id="footer">
 						<div class="inner">
 							<section>
-								<h2 class="h2-main">Get in touch</h2>
+								<h2>Get in touch</h2>
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
@@ -21,7 +21,7 @@
 								</form>
 							</section>
 							<section>
-								<h2 class="h2-main">Follow</h2>
+								<h2>Follow</h2>
 								<ul class="icons">
 									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -36,9 +36,9 @@
 							<ul class="copyright">
 								<div class="inner">
 									<div class="row">
-										<div class="col-4 footer-links"><a href="impressum.php"><h2 class="h2-main">Impressum</h2></a></div>
-										<div class="col-4 footer-links"><a href="#"><h2 class="h2-main">Urheberrecht</h2></a></div>
-										<div class="col-4 footer-links"><a href="agb.php"><h2 class="h2-main">AGB</h2></a></div>
+										<div class="col-4 footer-links"><a href="impressum.php"><h2>Impressum</h2></a></div>
+										<div class="col-4 footer-links"><a href="#"><h2>Urheberrecht</h2></a></div>
+										<div class="col-4 footer-links"><a href="agb.php"><h2>AGB</h2></a></div>
 									</div>
 								</div>
 								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
