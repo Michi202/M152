@@ -3,7 +3,7 @@
 	<div id="main">
 		<div class="inner">
 			<header>
-				<h1>Modul 152
+				<h1 class="h1-main">Modul 152
 				<br/>Multimedia-Inhalte in Webauftritt integrieren</h1>
 				<p>Diese Webseite dient zur Ablage um alle Kleinprojekte zu veranschaulichen die im Modul 152 verwirklicht wurden. Diese werden auf der Seite Aufgabe für Aufgabe angezeigt. Das Template stammt von der Seite <a href="http://html5up.net">HTML5 UP</a>.</p>
 			</header>
@@ -12,8 +12,8 @@
 					<span class="image">
 						<img src="images/pic01.jpg" alt="" />
 					</span>
-					<a href="generic.php">
-						<h2>Styleguide</h2>
+					<a href="styleguide.php">
+						<h2 class="h2-main">Styleguide</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -24,7 +24,7 @@
 						<img src="images/pic02.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Webseitenkonzept</h2>
+						<h2 class="h2-main">Webseitenkonzept</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -35,7 +35,7 @@
 						<img src="images/pic03.jpg" alt="" />
 					</span>
 					<a href="subpages/gallery.php">
-						<h2>Galerie</h2>
+						<h2 class="h2-main">Galerie</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -46,7 +46,7 @@
 						<img src="images/pic04.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Minifilm</h2>
+						<h2 class="h2-main">Minifilm</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -57,7 +57,7 @@
 						<img src="images/pic05.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Bibliothek</h2>
+						<h2 class="h2-main">Bibliothek</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -68,7 +68,7 @@
 						<img src="images/pic06.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Reflexion</h2>
+						<h2 class="h2-main">Reflexion</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -79,7 +79,7 @@
 						<img src="images/pic07.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Storytelling</h2>
+						<h2 class="h2-main">Storytelling</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -90,7 +90,7 @@
 						<img src="images/pic08.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Mockup, Wireframe</h2>
+						<h2 class="h2-main">Mockup, Wireframe</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -101,7 +101,7 @@
 						<img src="images/pic09.jpg" alt="" />
 					</span>
 					<a href="wireframe.php">
-						<h2>Wireframe anwenden</h2>
+						<h2 class="h2-main">Wireframe anwenden</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -112,7 +112,7 @@
 						<img src="images/pic10.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Ultricies</h2>
+						<h2 class="h2-main">Ultricies</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -123,7 +123,7 @@
 						<img src="images/pic11.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Dictum</h2>
+						<h2 class="h2-main">Dictum</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
@@ -134,7 +134,7 @@
 						<img src="images/pic12.jpg" alt="" />
 					</span>
 					<a href="generic.php">
-						<h2>Pretium</h2>
+						<h2 class="h2-main">Pretium</h2>
 						<div class="content">
 							<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 						</div>
