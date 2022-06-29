@@ -13,7 +13,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: http://severinsenn.bplaced.net
+          server: severinsenn.bplaced.net
           username: severinsenn_Github
           password: HPqK8f7&
 
