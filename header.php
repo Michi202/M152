@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="98d6c75c-6504-44a5-a82f-a2c5aefe45c5" data-blockingmode="auto" type="text/javascript"></script>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
