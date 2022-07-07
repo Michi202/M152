@@ -54,7 +54,6 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script id="CookieDeclaration" src="https://consent.cookiebot.com/b0363d71-a05e-44b6-b162-cf03950a91ee/cd.js" type="text/javascript" async></script>
-
+		<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="98d6c75c-6504-44a5-a82f-a2c5aefe45c5" data-blockingmode="auto" type="text/javascript"></script>
 	</body>
 </html>
