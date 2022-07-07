@@ -143,4 +143,5 @@
 			</section>
 		</div>
 	</div>
+	<script id="CookieDeclaration" src="https://consent.cookiebot.com/b0363d71-a05e-44b6-b162-cf03950a91ee/cd.js" type="text/javascript" async></script>
 <?php include("footer.php") ?>
