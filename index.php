@@ -100,6 +100,5 @@
 			</section>
 		</div>
 	</div>
-<script id="CookieDeclaration" src="https://consent.cookiebot.com/98d6c75c-6504-44a5-a82f-a2c5aefe45c5/cd.js" type="text/javascript" async></script>
 
 <?php include("footer.php") ?>

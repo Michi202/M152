@@ -44,6 +44,19 @@
             <span style="margin:5px 0">SVG ein sehr starkes Tool, wenn es darum geht Responsiv mässige Icons oder Bilder zu liefern. SVG können in alle Grössen skaliert werden und keinen Qualität Verlust erleiden. Das light daran das sie nicht aus Pixel bestehen sondern aus Geometrischen Formen. SVG sind genau darum sehr beliebt für Icons. Frameworks wie Font-Awasome, Google Icons usw.. benutzen alle svg.</span>
             <img src="/images/code-solid.svg" class="center" height="50rem" >
         </div>
+        <div style="margin: 1em 0 0 0">
+            <h2>Canvas Animation</h2>
+            <span style="margin:5px 0">
+                Canvas sind gut um Animationen dirket mittels Javascript zu erstellen ohne aufwändige Software einfach animationen zu erstellen.
+            </span>
+            <canvas id="canvas" width="300" height="300"></canvas>
+        </div>
+        <div style="margin: 1em 0 0 0">
+            <h2>Scroll-Animations</h2>
+            <span style="margin:5px 0">
+                Unsere Scroll Animation wurde auf der Home Page integriert.
+            </span>
+        </div>
     </div>
 </div>
 <style>
@@ -54,4 +67,54 @@
   width: 50%;
 }
 </style>
+<script>
+var sun = new Image();
+var moon = new Image();
+var earth = new Image();
+function init() {
+  sun.src = 'https://mdn.mozillademos.org/files/1456/Canvas_sun.png';
+  moon.src = 'https://mdn.mozillademos.org/files/1443/Canvas_moon.png';
+  earth.src = 'https://mdn.mozillademos.org/files/1429/Canvas_earth.png';
+  window.requestAnimationFrame(draw);
+}
+
+function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+
+  ctx.globalCompositeOperation = 'destination-over';
+  ctx.clearRect(0, 0, 300, 300); // clear canvas
+
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
+  ctx.strokeStyle = 'rgba(0, 153, 255, 0.4)';
+  ctx.save();
+  ctx.translate(150, 150);
+
+  // Earth
+  var time = new Date();
+  ctx.rotate(((2 * Math.PI) / 60) * time.getSeconds() + ((2 * Math.PI) / 60000) * time.getMilliseconds());
+  ctx.translate(105, 0);
+  ctx.fillRect(0, -12, 50, 24); // Shadow
+  ctx.drawImage(earth, -12, -12);
+
+  // Moon
+  ctx.save();
+  ctx.rotate(((2 * Math.PI) / 6) * time.getSeconds() + ((2 * Math.PI) / 6000) * time.getMilliseconds());
+  ctx.translate(0, 28.5);
+  ctx.drawImage(moon, -3.5, -3.5);
+  ctx.restore();
+
+  ctx.restore();
+
+  ctx.beginPath();
+  ctx.arc(150, 150, 105, 0, Math.PI * 2, false); // Earth orbit
+  ctx.stroke();
+
+  ctx.drawImage(sun, 0, 0, 300, 300);
+
+  window.requestAnimationFrame(draw);
+}
+
+init();
+
+</script>
 <?php include("footer.php") ?>
