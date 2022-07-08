@@ -85,6 +85,18 @@
 						</div>
 					</a>
 				</article>
+				<article class="style2">
+					<span class="image">
+						<img src="images/pic11.jpg" alt="" />
+					</span>
+					<a href="Testing.php">
+						<h2>Testing</h2>
+						<div class="content">
+							<p></p>
+						</div>
+					</a>
+				</article>
+				
 			</section>
 		</div>
 	</div>
