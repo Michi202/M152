@@ -34,6 +34,9 @@
 
             <h2>Wie lange dauert das Urheberrecht?</h2>
             <p>Das Urheberrecht beginnt mit der Schaffung des Werkes und endet grundsätzlich 70 Jahre nach dem Tod des Urhebers.</p>
+        
+            <h2>Public Domain VS Fair use</h2>
+            <p>Die faire Nutzung geht nur so weit, dass Sie das Werk verwenden können, ohne Geld damit zu verdienen. Ein Urheberrecht gibt Ihnen das volle Eigentum an dem Werk, so dass Sie es als Ihr eigenes beanspruchen und möglicherweise Geld damit verdienen können.</p>
         </section>
     </div>
 </div>
