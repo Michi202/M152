@@ -1,0 +1,19 @@
+
+name: Deploy Page to http://severinsenn.bplaced.net/
+
+on:
+  push:
+    branches: [ "master" ]
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: severinsenn.bplaced.net
+          username: severinsenn_Github
+          password: HPqK8f7&
+
