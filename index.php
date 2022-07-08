@@ -5,7 +5,7 @@
 			<header>
 				<h1>Modul 152
 				<br/>Multimedia-Inhalte in Webauftritt integrieren</h1>
-				<p>Diese Webseite dient zur Ablage um alle Kleinprojekte zu veranschaulichen die im Modul 152 verwirklicht wurden. Diese werden auf der Seite Aufgabe für Aufgabe angezeigt. Das Template stammt von der Seite <a href="http://html5up.net">HTML5 UP</a>.</p>
+				<p>Diese Webseite dient zur Ablage um alle Kleinprojekte zu veranschaulichen die im Modul 152 verwirklicht wurden. Diese werden auf der Seite Aufgabe für Aufgabe angezeigt.</p>
 			</header>
 			<section class="tiles">
 				<article class="style1">
